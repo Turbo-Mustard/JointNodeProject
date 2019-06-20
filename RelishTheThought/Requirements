@@ -1,0 +1,33 @@
+Core App Requirements:
+
+Database Integration:
+- Integrate with MongoDB to store things
+- If not possible, some other cloud-friendly, free alternative.
+
+Web GUI:
+- Must have multiple pages.
+  - Home page
+  - Form Submission (Create Account, for example)
+  - Login page (or widget on home page)
+
+
+
+Core Features:
+- Authentication
+  - Create Account
+    -Includes user profile information, such as name, address, DoB, etc.
+  - Sign In
+  - Passwords should be stored as a hash, preferably find a good method for that.
+
+TRIBAL WARS
+- User Accounts
+- World Event Handler
+  - Players trigger events in the World
+- Cities would be a table in the database.
+  - City name
+  - Health
+  - Building columns
+  - Army Stats
+- Events In Progress table
+  - Essentially, shows what users are currently doing
+- User Accounts table
