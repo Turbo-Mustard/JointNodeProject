@@ -35,6 +35,7 @@ const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const testController = require('./controllers/test');
+const puggingController = require('./controllers/pugging');
 /**
  * API keys and Passport configuration.
  */
@@ -148,7 +149,7 @@ app.get('/account/unlink/:provider', passportConfig.isAuthenticated, userControl
  * Michael's routes
  */
 app.get('/testing', testController.getTest);
-
+app.get('/pugging', puggingController.getPugging);
 
 
 /**
